@@ -553,7 +553,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Joven Amenaza:'
+  m_text: 'Menacing Lightning:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Damicela triste:'
+  m_text: 'Cry Damsel:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tormenta Rosa:'
+  m_text: 'Pink Twister:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1682,7 +1682,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Caballero estrepitozo:'
+  m_text: 'Death Kinght:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2091,8 +2091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.928}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 35.2, y: -191.8}
-  m_SizeDelta: {x: 54.1598, y: 31.6852}
+  m_AnchoredPosition: {x: 1.1874, y: -197.4793}
+  m_SizeDelta: {x: 65.3918, y: 99.5878}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918773915
 MonoBehaviour:
@@ -2114,7 +2114,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tipo: Ni\xF1a poseida\nDescripcion:\nAtk:\nDef:"
+  m_text: "Tipo: Ni\xF1a poseida\nDescripcion: ella es muy sensible, asi que no querras
+    hacerla llorar ya que un rio de lagrimas te esperara. Si no eres amable y ella
+    nota que eres una amenaza, tal vez deberias preparate en caso de que no sepas
+    nadar.\nAtk: ella te abrazara demasiado fuerte provocando que tu vida baje pero
+    si eres malo con ella comenzara a soltar lagrimas que te bajaran tambien vida.\nDef:
+    con un rio de lluvia formara un escudo de agua"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2141,7 +2146,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.9
+  m_fontSize: 7.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2743,7 +2748,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tipo: Caballero
+  m_text: 'Tipo: Muerto Viviente
 
     Descripcion: mientras caminas te podras encontrar
     con unos largos brazos, los cuales pertenecen a un caballero el cual no es amable
