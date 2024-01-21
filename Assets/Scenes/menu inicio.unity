@@ -664,8 +664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.928}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 33.5, y: -191.9}
-  m_SizeDelta: {x: 54.1598, y: 31.6852}
+  m_AnchoredPosition: {x: 0.0027999878, y: -199.851}
+  m_SizeDelta: {x: 69.9366, y: 98.563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364658243
 MonoBehaviour:
@@ -689,11 +689,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Tipo: Fantasma
 
-    Descripcion:
+    Descripcion: con sus grandes y luminosos ojos rojos
+    te observara en la oscuridad, asi que empieza a correr si logras mirarlo directamente
+    a los ojos, ya que el sentira tu amenaza e ira por ti
 
-    Atk:
+    Atk: si logras verlo
+    de frente podra paralizar a su enemigo por unos segundos, dandole ventaja  para
+    atacar.
 
-    Def:'
+    Def: gira mietras lanza rayos con sus ojos, provocando un escudo
+    de lazer'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -720,7 +725,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.9
+  m_fontSize: 8.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3805,8 +3810,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.928}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 33.389217, y: -188.63982}
-  m_SizeDelta: {x: 54.1598, y: 31.6852}
+  m_AnchoredPosition: {x: -0.10800171, y: -195.0763}
+  m_SizeDelta: {x: 74.4786, y: 98.5605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514506218
 MonoBehaviour:
@@ -3828,13 +3833,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tipo: Fantasma
+  m_text: 'Tipo: Bruja
 
-    Descripcion:
+    Descripcion: a pesar de su apariencia dulce y juguetona
+    no le gustan las visitas inesperadas a su hogar asi que ten cuidado, ya que cuando
+    menos te lo esperes ella estara atras de ti .
 
-    Atk:
+    Atk: con su gran boca ella
+    provocara grandes y escandalos tornados rosas que te atacaran por un lapso de
+    tiempo asi como tambien puede comerte y escupirte, bajando tu nivel de vida.
 
-    Def:'
+    Def:
+    con un gran y estrepitozo sonido ella puede crear un escudo de ruido.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3861,7 +3871,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.9
+  m_fontSize: 7.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
