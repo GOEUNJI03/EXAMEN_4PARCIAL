@@ -698,7 +698,7 @@ MonoBehaviour:
     atacar.
 
     Def: gira mietras lanza rayos con sus ojos, provocando un escudo
-    de lazer'
+    de lazer.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2114,13 +2114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tipo: Fantasma
-
-    Descripcion:
-
-    Atk:
-
-    Def:'
+  m_text: "Tipo: Ni\xF1a poseida\nDescripcion:\nAtk:\nDef:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2726,8 +2720,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.928}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 35.2, y: -190.9}
-  m_SizeDelta: {x: 54.1598, y: 31.6852}
+  m_AnchoredPosition: {x: 1.4451, y: -200.744}
+  m_SizeDelta: {x: 73.7214, y: 99.0805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025912834
 MonoBehaviour:
@@ -2749,13 +2743,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tipo: Fantasma
+  m_text: 'Tipo: Caballero
 
-    Descripcion:
+    Descripcion: mientras caminas te podras encontrar
+    con unos largos brazos, los cuales pertenecen a un caballero el cual no es amable
+    con las visitas, ya que el hizo el juramento de defender hasta la muerte su hogar.
 
     Atk:
+    con sus largos brazos el golpeara el piso, provocando temblores en el lugar y
+    provocando que sus enemigos pierdan equilibrio asi como tambien podra estirarse
+    y agarrar a sus victimas, lanzandolas lejos.
 
-    Def:'
+    Def: con sus largas manos y
+    dando vueltas provocara unas helices de aire las cuales si intentas atacarlo
+    te golpeara y te bajara la vida.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2782,7 +2783,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.9
+  m_fontSize: 7.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
