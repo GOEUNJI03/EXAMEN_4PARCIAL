@@ -1,0 +1,18 @@
+{
+	"carta": [
+		{
+			"name": "",
+			"description": "",
+			"class":"",
+			"atk": ,
+			"def": 
+		},
+		{
+			"name": "",
+			"description": "",
+			"class":"",
+			"atk": ,
+			"def": 
+		}
+	]
+}
