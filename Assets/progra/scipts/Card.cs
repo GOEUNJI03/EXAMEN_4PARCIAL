@@ -11,8 +11,6 @@ public class Card : ScriptableObject
     public string description;
     public int atk;
     public int def;
-    public Sprite fond;
-    public Sprite str;
-    public Sprite syb;
+    public string type;
 
 }

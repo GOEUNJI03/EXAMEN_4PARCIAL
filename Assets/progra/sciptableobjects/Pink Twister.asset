@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15dd2f8b032589c45bc25101816bbc57, type: 3}
+  m_Name: Pink Twister
+  m_EditorClassIdentifier: 
+  Name: 
+  image: {fileID: 21300000, guid: 5f112733910d38b46b1b05e496baf8bb, type: 3}
+  description: a pesar de su apariencia dulce y juguetona no le gustan las visitas
+    inesperadas a su hogar asi que ten cuidado, ya que cuando menos te lo esperes
+    ella estara atras de ti .
+  atk: 200
+  def: 300
+  type: Bruja
