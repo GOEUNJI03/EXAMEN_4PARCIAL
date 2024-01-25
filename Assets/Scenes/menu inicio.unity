@@ -771,7 +771,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &94242497
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10949,7 +10949,7 @@ RectTransform:
   m_GameObject: {fileID: 1118342924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.93812, y: 0.93812, z: 0.93812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 984741602}
@@ -13969,6 +13969,13 @@ MonoBehaviour:
   btnBack2: {fileID: 968389912}
   btnBack3: {fileID: 1459988022}
   btnBack4: {fileID: 305388756}
+  name: {fileID: 891082150}
+  clase: {fileID: 270965724}
+  descripcion: {fileID: 630548337}
+  ataque: {fileID: 591617274}
+  defensa: {fileID: 477593501}
+  imagen: {fileID: 1118342924}
+  guardarcarta: {fileID: 287506594}
 --- !u!1 &1580893558
 GameObject:
   m_ObjectHideFlags: 0
