@@ -32,11 +32,11 @@ public class AnimacionDeTexto : MonoBehaviour
         LeanTween.moveX(btnBack2.GetComponent<RectTransform>(),-153, 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
         LeanTween.moveX(btnBack3.GetComponent<RectTransform>(),-153, 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
         LeanTween.moveX(btnBack4.GetComponent<RectTransform>(),-153, 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
-        LeanTween.moveY(name.GetComponent<RectTransform>(), 1f, 326).setDelay(2f).setEase(LeanTweenType.easeInSine);
-        LeanTween.moveY(clase.GetComponent<RectTransform>(), 1f, 231).setDelay(2f).setEase(LeanTweenType.easeInSine);
-        LeanTween.moveY(descripcion.GetComponent<RectTransform>(), 1f, 130).setDelay(2f).setEase(LeanTweenType.easeInSine);
-        LeanTween.moveY(ataque.GetComponent<RectTransform>(), 1f, 24).setDelay(2f).setEase(LeanTweenType.easeInSine);
-        LeanTween.moveY(defensa.GetComponent<RectTransform>(), 1f, -82).setDelay(2f).setEase(LeanTweenType.easeInSine);
+        LeanTween.scale(name.GetComponent<RectTransform>(), new Vector3(1, 1, 1), 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
+        LeanTween.scale(clase.GetComponent<RectTransform>(), new Vector3(1, 1, 1), 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
+        LeanTween.scale(descripcion.GetComponent<RectTransform>(), new Vector3(1, 1, 1), 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
+        LeanTween.scale(ataque.GetComponent<RectTransform>(), new Vector3(1, 1, 1), 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
+        LeanTween.scale(defensa.GetComponent<RectTransform>(), new Vector3(1, 1, 1), 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
         LeanTween.scale(imagen.GetComponent<RectTransform>(), new Vector3(1, 1, 1), 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
         LeanTween.scale(guardarcarta.GetComponent<RectTransform>(), new Vector3(1, 1, 1), 1f).setDelay(2f).setEase(LeanTweenType.easeInSine);
     }
