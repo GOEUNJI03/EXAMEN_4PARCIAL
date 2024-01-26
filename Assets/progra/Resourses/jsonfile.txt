@@ -1,18 +1,36 @@
 {
 	"carta": [
 		{
-			"name": "",
-			"description": "",
-			"class":"",
-			"atk": ,
-			"def": 
+			"name": "Pink Twister",
+			"playerImage": "imagenes/IMG_4249",
+			"description": "a pesar de su apariencia dulce y juguetona no le gustan las visitas inesperadas a su hogar asi que ten cuidado, ya que cuando menos te lo esperes ella estara atras de ti .",
+			"Class":"Bruja",
+			"atk":100 ,
+			"def":200 
 		},
 		{
-			"name": "",
-			"description": "",
-			"class":"",
-			"atk": ,
-			"def": 
+			"name": "Death Kinght",
+			"playerImage": "imagenes/IMG_4250",
+			"description": "mientras caminas te podras encontrar con unos largos brazos, los cuales pertenecen a un caballero el cual no es amable con las visitas, ya que el hizo el juramento de defender hasta la muerte su hogar.",
+			"Class":"Muerto Viviente",
+			"atk":700 ,
+			"def":800 
+		},
+		{
+			"name": "Menacing Lightning",
+			"playerImage": "imagenes/IMG_4247",
+			"description": " con sus grandes y luminosos ojos rojos te observara en la oscuridad, asi que empieza a correr si logras mirarlo directamente a los ojos, ya que el sentira tu amenaza e ira por ti",
+			"Class":"Fantasma",
+			"atk":120 ,
+			"def": 200
+		},
+		{
+			"name": "Cry Damsel",
+			"playerImage": "imagenes/IMG_4246",
+			"description": "ella es muy sensible, asi que no querras hacerla llorar ya que un rio de lagrimas te esperara. Si no eres amable y ella nota que eres una amenaza, tal vez deberias preparate en caso de que no sepas nadar.",
+			"Class":"Niña poseida",
+			"atk":190 ,
+			"def": 400
 		}
 	]
 }

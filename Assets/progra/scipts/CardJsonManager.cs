@@ -1,22 +1,32 @@
 using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardJsonManager : MonoBehaviour
 {
-    [SerializeField] private TMP_Text Name;
-    [SerializeField] private TMP_Text description;
-    [SerializeField] private TMP_Text Class;
-    [SerializeField] private TMP_Text atk;
-    [SerializeField] private TMP_Text def;
+    public GameObject cartaPrefab;
+    public Transform contenedorCartas;
 
-    public void SetName(TMP_Text _name, TMP_Text _description,TMP_Text _Class, int _atk, int _def)
+    void Start()
     {
-        Name.text = Name.text;
-        description.text = description.text;
-        Class.text = Class.text;
-        atk.text = _atk.ToString();
-        def.text = _def.ToString();
+        // Cargar el JSON desde el archivo
+        string jsonPath = "Assets/progra/Resources/jsonfile.txt"; // Asegúrate de que la ruta sea correcta
+        TextAsset jsonFile = Resources.Load<TextAsset>(jsonPath);
+
+        // Analizar el JSON
+        CartaList cartasData = JsonUtility.FromJson<CartaList>(jsonFile.text);
+
+        // Mostrar las cartas en la escena
+        foreach (var cartaData in cartasData.carta)
+        {
+            // Instanciar una nueva carta desde el prefab
+            GameObject nuevaCarta = Instantiate(cartaPrefab, contenedorCartas);
+
+            // Obtener el componente CardUI para establecer los datos
+            CardUI cartaUI = nuevaCarta.GetComponent<CardUI>();
+            cartaUI.SetCardInfo(cartaData);
+        }
     }
 }
+
+

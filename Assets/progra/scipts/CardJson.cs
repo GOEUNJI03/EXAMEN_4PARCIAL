@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CardJson 
+[System.Serializable]
+public class CardJson
 {
     public string name;
+    public string playerImage;
     public string description;
-    public string type;
+    public string Class;
     public float atk;
     public float def;
 }
-[System.Serializable]
 
+[System.Serializable]
 public class CartaList
 {
     public CardJson[] carta;
 }
+
