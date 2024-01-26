@@ -9,8 +9,8 @@ public class CardJsonManager : MonoBehaviour
 
     void Start()
     {
-        // Cargar el JSON desde el archivo
-        string jsonPath = "Assets/progra/Resources/jsonfile.txt"; // Asegúrate de que la ruta sea correcta
+       
+        string jsonPath = "Assets/progra/Resources/jsonfile.txt"; 
         TextAsset jsonFile = Resources.Load<TextAsset>(jsonPath);
 
         // Analizar el JSON

@@ -17,7 +17,7 @@ public class CardCreator : MonoBehaviour
 
     private void Start()
     {
-        // Puedes agregar código de inicialización aquí
+        
     }
 
     public void SaveCard()
